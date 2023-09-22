@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #edeae4;
+}
+
+a{
+    text-decoration: none;
+    color: #423d3f;
+}
+.banner {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.banner {
+  height: 100vh;
+  padding: 0px 0px;
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+  background: url(./images/bg.png);
+  background-size: cover;
+  background-position: top center;
+}
+
+.section2 {
+  position: relative;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 110%;
+  right: 10%;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 75%;
+  left: 10%;
+}
+.overlay3 {
+  position: absolute;
+  bottom: 130%;
+  right: 5px;
+}
+
+.overlay_img1 {
+  max-width: 150px;
+}
+.overlay_img2 {
+  max-width: 100px;
+}
+.overlay_img3 {
+  max-width: 80px;
+}
+
+.overlay_small1 {
+  position: absolute;
+  top: 45%;
+  right: 15%;
+}
+.small_img1 {
+  max-width: 20px;
+}
+
+.overlay_small2 {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+.small_img2 {
+  max-width: 40px;
+}
+
+.overlay_small3 {
+  position: absolute;
+  bottom: 5%;
+}
+.small_img3 {
+  max-width: 25px;
+}
+
+.overlay_small4 {
+  position: absolute;
+  top: 105%;
+  left: 10%;
+}
+.small_img4 {
+  max-width: 45px;
+}
+
+.logo {
+  max-height: 120px;
+  margin-left: 50px;
+  padding: 20px;
+}
+.banner_btn {
+  background: #dbd7cf;
+  margin: 20px 0;
+}
+.title {
+  color: #dbd7cf;
+}
+
+.sec2_heading {
+  color: #423d3f;
+  font-weight: 400;
+}
+.section2_head {
+  font-size: larger;
+  color: #423d3f;
+  font-weight: 600;
+}
+
+.section3 {
+  position: relative;
+  width: 100%;
+  height: 120vh;
+  background: url(./images/QuantomAesthetics-LP.png);
+  background-size: cover;
+  background-position: top center;
+  padding: 180px 0px;
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+  z-index: -1;
+}
+.section3_head,
+.section3_txt {
+  color: #ffffff;
+}
+.section3_txt {
+  padding-left: 95px;
+  padding-right: 30px;
+}
+li {
+  color: #423d3f;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    margin-left: 20px;
+  }
+  .overlay_small1,
+  .overlay_small2,
+  .overlay_small3,
+  .overlay_small4 {
+    display: none;
+  }
+  .section3_txt {
+    padding-left: 5px;
+    padding-right: 0px;
+  }
+  .section3_img {
+    display: none;
+  }
+  .section3_txt {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .overlay1 {
+    position: absolute;
+    bottom: 110%;
+    right: 10%;
+  }
+  .overlay_img1 {
+    width: 90px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .section3_txt {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .section3_img {
+    display: none;
+  }
+  .overlay1 {
+    position: absolute;
+    bottom: 102%;
+    right: 10%;
+  }
+  .overlay_img1 {
+    width: 80px;
+  }
+}
